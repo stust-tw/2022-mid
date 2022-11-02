@@ -1,0 +1,61 @@
+
+h1{color: aliceblue; font-size: 30pt; font-family: 'Noto Sans TC', sans-serif;}
+h5{color: rgb(35, 37, 41); font-size: 20pt; font-family: 'Noto Sans TC', sans-serif;}
+body {background-color: rgb(131, 163, 173);}
+img{ padding:20px; width: 900px;margin: 20px 0;}
+
+.contact-main{
+    width: 100%;
+    max-width:900px ;
+    padding: 10px;
+    margin: auto;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.card h1{
+    color: black;
+    text-decoration: none;
+}
+
+.card p{
+    color: black;
+    text-decoration: none;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work.item.pic img{
+    width: 100%;
+}
+
+.work.item.txt h1{
+    color: #fff;
+    text-align: center;
+}
+.work.item.txt p{
+    color: #fff;
+    text-align: center;
+}
+
+
+/* <div class="work"> */
+   /* <div class="wrap"> */
+      /* <div class="item"> */
+      /* <div class="pic"> */
+      /* <img src="image/big_pic1.jpeg" alt="">   */
+      /* </div> */
+      /* <div class="txt"> */
+      /* <h1>樂福超市-樂齡健康活動</h1> */
+      /* <p>引導高齡者外靜內動參加行動超市與社區樂齡合作辦理的健康資訊活動。</p>   */
+      /* </div> */
+      /* </div> */
+   /* </div> */
+/* </div> */

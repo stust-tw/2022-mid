@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{
+	width: 1000px;
+	height: 210px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+	
+
+
+
+footer{
+	clear: left;
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	position: relative;
+	top: 1000px;
+	
+}
+
+
+li{
+	display: inline;
+	margin:20px;
+	float:left;
+	color: #A87FB9;
+	font-size: 24px;
+}
+
+
+
+
+
+
+li.ul1{
+	float:left;
+	margin-top: 30px;
+	margin-right: 10px;
+	text-align: center;
+	position:relative;
+	left:880px;
+	
+}
+
+li.ul2{
+	float:left;
+	margin-top: 20px;
+	margin-right: 10px;
+	position:relative;
+	left: 920px;
+	
+}
+
+h1{
+	text-align: center;
+	color: #A87FB9;
+	font-size: 18px;
+	font-weight: 100;
+	
+}
+
+h2{
+	text-align: left;
+	color:#A87FB9;
+	font-size: 16px;
+	position:relative;
+	left:700px;
+	top: 10px;
+}
+
+
+h3{
+	text-align: left;
+	color:#A87FB9;
+	font-size: 26px;
+	position:relative;
+	left:700px;
+	top: 10px;
+}
+
+
+
+
+
+
+.img-nav{
+	float:left;
+	position:relative;
+	top:-20px;
+	
+}
+
+
+
+.profolio-photo{
+	float:left;
+	width:31%;
+	margin:1%;
+	border: solid silver 1px;
+	
+}
+
+.hr{
+	position: relative;
+	top: 100px;
+}
+
+.img-people{
+	  float:left;
+	  position:relative;
+	  top:200px;
+	  left: 100px;
+}
+
+.img-txt{
+	float:left;
+    position:relative;
+	top:180px;
+    left: 300px;
+}
+p{
+	text-align: left;
+	color: #A87FB9;
+	font-size: 20px;
+	position:relative;
+	left:80px;
+}
+.a{transform: scale(1.2);
+}

@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+   }
+    
+   header {
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    background-color: #26382a;
+    float: left;
+   }
+    
+   #tittle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 100px;
+    
+    font-size: 41px;
+    font-family: Taipei Sans TC Beta;
+    color: #dcddab;
+    float: left;
+   }
+    
+   #text3 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text3:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text4 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text4:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text5 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text5:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text6 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text6:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   main {
+    width: 100%;
+    height: auto;
+    background-color: #dcddab;
+    image-rendering: initial;
+    clear: both;
+   }
+    
+   .clip1 {
+    height: 300px;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+   }
+    
+   .thebox {
+    position: relative;
+    overflow: hidden;
+   }
+    
+   .thebox img {
+    transition: all 0.5s;
+   }
+    
+   h3 {
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    font-size: 20px;
+    color: #26382a;
+    font-family: Taipei Sans TC Beta;
+    animation-name: thisisanmation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    opacity: 0; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transition: transform 1s;
+   }
+    
+   @keyframes thisisanmation {
+    from {
+      left: 40px;
+      opacity: 0;
+    }
+    to {
+      left: 200px;
+      opacity: 100;
+    }
+   }
+    
+   footer {
+    background-color: #26382a;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    clear: both;
+   }
+    
+   #text1 {
+    color: #dcddab;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Taipei Sans TC Beta;
+   }
+    
+   #text2 {
+    color: #26382a;
+   }
+    
+   #bigbox {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    flex-flow: wrap;
+    justify-content: center;
+    display: flex;
+   }
+    
+   .thebox img:hover {
+    opacity: 50%;
+   }
+   .thebox:hover h3 {
+    transform: scale(2);
+   }
+    
+   h3 {
+    z-index: 100;
+   }
+    
+   h3::after {
+    content: "";
+    opacity: 0.5;
+    border: #26382a solid 1px;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+   }
+    
+   .thebox:hover h3::after {
+    left: 0;
+   }
+   

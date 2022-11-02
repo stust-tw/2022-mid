@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+   }
+    
+   header {
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    background-color: #26382a;
+    float: left;
+   }
+    
+   #tittle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 100px;
+    
+    font-size: 41px;
+    font-family: Taipei Sans TC Beta;
+    color: #dcddab;
+    float: left;
+   }
+    
+   #text3 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text3:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text4 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text4:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text5 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text5:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   #text6 {
+    float: left;
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    margin: 15px;
+    color: #dcddab;
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #dcddab;
+    background-color: transparent;
+    transition: all 0.3s linear;
+   }
+    
+   #text6:hover {
+    background-color: #dcddab;
+    color: #26382a;
+   }
+    
+   main {
+    height: auto;
+    background-color: #dcddab;
+    image-rendering: initial;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+   footer {
+    background-color: #26382a;
+    width: 100%;
+    height:auto;
+    text-align: left;
+    clear: both;
+   }
+    
+   #text1 {
+    color: #dcddab;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Taipei Sans TC Beta;
+   }
+    
+   #text2 {
+    color: #26382a;
+   }
+
+   h1{
+    width:400PX;
+    height:50px;
+    word-wrap:break-word; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40PX;
+    color: #C84B6F;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #26382A;
+    animation: typing 2s steps(15, end), cursor .1s steps(10, end) infinite;
+
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+    }
+
+
+   .so4jp6{
+    display: block;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+   }
+
+    div.box img{
+        width: 800px;
+        margin: 30px;
+        transition: 0.4s;
+    }
+   
+    div.box img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+   }
+   p{
+    font-size: 20px;
+    font-family: Taipei Sans TC Beta;
+    color: #405845;
+    line-height:35px;
+   }
+
+   div.box{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   .box2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   }
+
+   div.vbnm{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+   }
+
+   div.vbnm img{
+   height:100%;
+   transition: 0.4s;
+
+   }
+   div.vbnm img:hover{
+    transform: scale(1.6);
+    transition: 0.5s;
+   }
+
+ 

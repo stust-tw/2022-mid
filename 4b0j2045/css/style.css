@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css"> 
+body 
+
+
+h1{
+  color:#F90;
+  position:relative;
+  top:10px;
+  left:50px;}
+
+p{
+  color:#FFF;
+  position:relative;
+  top:20px;
+  left:15px;
+}
+
+
+.img-logo{
+  position:relative;
+  top:30px;
+  left:45px;}
+  
+.img-1{
+  position:relative;
+  top:2px;
+  left:336px;}
+
+.img-2{
+  position:relative;
+  top:-28px;
+  left:418px;}
+  
+.img-3{
+  position:relative;
+  top:-58px;
+  left:548px;}
+  
+.img-4{
+  position:relative;
+  top:-88px;
+  left:685px;}
+  
+.img-5{
+  position:relative;
+  top:-131px;
+  left:810px;}
+  
+.img-6{
+  position:relative;
+  top:-177px;
+  left:858px;}
+  
+.img-7{
+  position:relative;
+  top:-222px;
+  left:905px;}
+  
+.text{
+  position:relative;
+  top:-160px;
+  left:523px;}
+
+.img{
+  position:relative;
+  top:140px;
+  left:200px;
+  }
+</style>

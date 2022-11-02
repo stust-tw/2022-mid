@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+a:link {color:#A87FB9;text-decoration:none;}
+a:visited {color:#A87FB9;}
+a:hover {font-size:150%;}	
+  
+	
+	  #submit{                        /*按鈕設計*/
+        width: 80px;               /*按鈕寬度*/
+        height: 30px;               /*按鈕高度*/
+        background-color: #A87FB9;  /*按鈕顏色*/
+        border-radius: 5px;         /*框線圓角*/
+        border:0;                   /*無框線*/
+		position: relative;
+		left: 350px;
+		top: 5px;  
+    }
+	
+	
+	#reset{                        /*按鈕設計*/
+        width: 80px;               /*按鈕寬度*/
+        height: 30px;               /*按鈕高度*/
+        background-color: #A87FB9;  /*按鈕顏色*/
+        border-radius: 5px;         /*框線圓角*/
+        border:0;                   /*無框線*/
+		position: relative;
+		left: 400px;
+		top: 5px;
+    }
+	
+	    #submit:hover{                  /*滑鼠移到按鈕後變更設計*/
+        background-color:#CEB1ED;        
+        border-radius: 5px;   
+        border:0px #003C9D solid;
+    }  
+	
+	 #reset:hover{                  /*滑鼠移到按鈕後變更設計*/
+        background-color:#CEB1ED;        
+        border-radius: 5px;   
+        border:0px #003C9D solid;
+    }  
+	form{
+	ext-align: left;
+	color:#A87FB9;
+	font-size: 16px;
+	position:relative;
+	left: 500px;	
+	top:200px;
+	}
+	legend{
+		font-size: 36px;
+	}
+	legend1{
+		font-size: 22px;
+		position:relative;
+	    left: 35px;	
+	}
+	fieldset{
+		width: 1000px;
+	}
+</style>
+	
+<meta charset="utf-8">
+<title>contact</title>
+
+	
+	
+	
+</head>
+
+<body>
+	
+	<nav>
+	<img src="images2/圖片1_03.png"  width="300px" class="img-nav" >
+	<ul type="square">
+		    <li class="ul1"><a href="index.html">home</a></li>
+		    <li class="ul1">/</li>
+		<li class="ul1"><a href="about me.html">about</a></li>
+		    <li class="ul1">/</li>
+		    <li class="ul1"><a href="works.html">portfolio</a></li>
+		    <li class="ul1">/</li>
+		<li class="ul1"><a href="contact.html">contact</a></li>
+		
+    </ul>		
+		
+	<ul >
+		<li class="ul2"> <a href="https://www.instagram.com/ting2.0919/"><img src="images2/圖片1_06.png"  width="50px"  ></a></li>
+	    <li class="ul2"><a href="https://www.facebook.com/profile.php?id=100002830508738"><img src="images2/圖片1_07.png"  width="50px" ></a></li>
+	
+    </ul>	
+		
+		
+	</nav>
+	
+	
+  <div>
+	<form action="mailto:4b0j2040@stust.edu.tw?subject=郵件主旨" method="post" enctype="text/plain" name="forml" id="forml">
+		<fieldset><legend>如有工作需求，歡迎聯繫</legend>
+			      <legend1>If you need work,please contect</legend1>
+		  <p>需要我服務的事項：
+        <select name="select" id="select">
+          <option>案子介紹</option>
+          <option>意見回饋</option>
+          <option>朋友聯繫</option>
+          <option>演講邀請</option>
+        </select>
+        </p>
+	    <p>
+		<label for="name">姓名(Name):</label>
+		<input name="name" type="text" id="name" size="12" maxlength="8" >
+		</p>
+		<p>性別(Gender):
+		<input type="radio" name="sex" id="radio" value="radio">
+		<label for="sex">女性(Female)</label>	<input type="radio" name="sex"><label for="sex">男性(Male)</label>
+		</p>
+		<p>
+        <label for="address">聯絡地址(Contact Address)：</label>
+        <input name="address" type="text" id="address" size="70" maxlength="70">
+        </p>
+	  <p>
+		 <label for="telephone">聯繫電話(Mobile)：</label>
+        <input name="telephone" type="tel" id="telephone" >
+		</p>
+		<p>
+        <label for="email">電子信箱(E-mail)：</label>
+        <input name="email" type="email" id="email" size="40" maxlength="40">
+        </p>
+	    <p>請問您從何處得知本網站的資訊？(可複選)</p>
+		<p>
+		  <label>
+		    <input type="checkbox" name="CheckboxGroup1" value="web" id="CheckboxGroup1_0">
+		    網路資訊</label>
+		  <label>
+		    <input type="checkbox" name="CheckboxGroup1" value="ad" id="CheckboxGroup1_1">
+		    文宣產品</label>
+		  <br>
+		  <label>
+		    <input type="checkbox" name="CheckboxGroup1" value="fr" id="CheckboxGroup1_2">
+		    親朋好友</label>
+		  <label>
+		    <input type="checkbox" name="CheckboxGroup1" value="book" id="CheckboxGroup1_3">
+		    報章雜誌</label>
+		  <br>
+        </p>
+        <p>
+      <label for="suggestion">建議事項(Suggestions)：</label>
+        <textarea name="suggestion" cols="70" rows="5" id="suggestion">請留下您的寶貴意見！</textarea>
+        </p>
+      <input type="submit" name="submit" id="submit" value="送出">
+	  <input type="reset" name="reset" id="reset" value="重設">
+	</fieldset>  
+	</form>
+	
+	
+</div>
+	
+	 
+  <footer>
+	 <hr size="3" color="#A87FB9">
+	<h1>Copyright © cai-yu-ting. All rights reserved. </h1>
+  </footer>
+</body>
+</html>

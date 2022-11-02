@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #FFF397;
+}
+nav{
+	width: 1550px;
+    height: 80px;
+    background:#D8CB5F;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	position: absolute;
+}
+
+.main-about{
+	margin-top: 50px;
+	position: relative;
+	margin-left: 100px;
+}
+
+footer {
+    clear: left;
+    width: 1550px;
+    height: 150px;
+    background: #D8CB5F;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: -8px;
+	color: #B39134;
+}
+
+.buttom{
+	width: 100px;
+}
+#home{
+	
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 10px;
+	color:#000000;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	color:#EFDD4F;
+	background-color:#FFFCE5;
+	transition: all .3s linear;
+}
+#about{
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 10px;
+	color:#000000;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	color:#EFDD4F;
+	background-color:#FFFCE5;
+	transition: all .3s linear;
+}
+#works{
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 10px;
+	color:#000000;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	color:#EFDD4F;
+	background-color:#FFFCE5;
+	transition: all .3s linear;
+}
+#contact{
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 10px;
+	color:#000000;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	color:#EFDD4F;
+	background-color:#FFFCE5;
+	transition: all .3s linear;
+}
+
+.foot{
+	display: inline;
+    margin: 2px;
+    position: relative;
+    top: 3px;
+}
+.con{
+	margin-top: 100px;
+	text-align: center;
+	color:#B3A534;
+}
+.map{
+	margin-left: 200px;	
+}
+a:link,a:visited{color:#EFDD4F;text-decoration: none}
+a:hover{color:#B39134;background-color:#FFFCE5;text-decoration: none;}
+
+.logo{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.works{
+	margin-top: 100px;
+	text-align: center;
+	color:#B3A534;
+	
+}
+.aboutme{
+	margin-top: 100px;
+	text-align: center;
+	color:#B3A534;
+}

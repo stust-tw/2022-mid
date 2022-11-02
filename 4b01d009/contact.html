@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+<link rel="stylesheet" href="style.css">
+<style type="text/css"> 
+	.div-form{
+        width: 200px;       /*區塊寬度*/
+        margin: 10px;        /*區塊邊界*/
+        padding: 50p;       /*區塊留白*/
+        text-align: center;  /*區塊文字靠右*/
+	}
+	label{                  
+        width: 150px;       /*標籤寬度*/
+        float: left;        /*標籤放在左側*/
+        text-align:center;  /*標籤文字靠右*/
+		color:#B39134;
+    }
+	#name:focus, #account:focus, #address:focus, #telephone:focus, #email:focus, #suggestion:focus{   /*焦點一移到欄位顏色就變淡*/
+    background: #FFFBDE;
+    }
+	#name, #account, #address, #telephone, #email{
+		height: 30px;
+	}
+	.buttom{
+		width: 300px;
+		margin-left: 100px;
+		
+	}
+	.submit, .reset{
+	border: 2px solid #D8B75F;
+    border-radius: 25px;
+    background: transparent;
+    color: #D8B75F;
+    text-align: center;
+    height: 50px;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.7em 2.9em;
+	}
+	h3{
+		color: #D8B75F;
+		margin-left: 200px;
+	}
+</style>
+</head>
+
+<body>
+<nav>
+	<img src="images/logo_工作區域 1.png" alt="" width="80" height="80" class="logo"/>
+	<ul>
+	<li id="home"><a href="home.html">Home</a></li>
+	<li id="about"><a href="about.html">About</a></li>
+	<li id="works"><a href="works.html">works</a></li>
+	<li id="contact"><a href="contact.html">Contact</a></li>	
+	</ul>
+</nav>
+<h1 class="con">— Contact｜聯絡我 —</h1>
+<div class="main-about">
+	<form action="mailto:4b0j2009@stust.edu.tw?subject=郵件主旨" method="post" enctype="text/plain" id="form1">
+		<p>
+		<label for="name">姓名:</label>
+      	<input name="name" type="text" id="name" value="" size="12" maxlength="8">
+	  </p>
+	  <p>
+		<label for="account">暱稱:</label>
+		<input name="account" type="text" id="account">
+		</p>
+	<p>
+		<label for="sex">性別:</label>
+		  <input type="radio" name="性別" value="male" id="性別_0">
+		  男
+		  <input type="radio" name="性別" value="female" id="性別_1">
+		  女
+    </p>
+	  <p>
+		<label for="address">聯絡地址:</label>
+		<input name="address " type="text" id="address " size="70" maxlength="70">
+	  </p>
+	  <p>
+		<label for="telephone">連絡電話:</label>
+		<input name="telephone" type="tel" id="telephone" value="09XX-XXXXXX">
+		</p>
+	  <p>
+		<label for="email">電子信箱:</label>
+		<input name="email" type="email" id="email" size="40" maxlength="40">
+		</p>
+	  <p>
+		<label for="email">設計案類型:</label>
+		<br>
+		<label>
+		  <input type="checkbox" name="CheckboxGroup1" value="核取方塊" id="CheckboxGroup1_0">
+	    平面設計</label>
+		<label>
+		  <input type="checkbox" name="CheckboxGroup1" value="核取方塊" id="CheckboxGroup1_1">
+		  網頁設計</label>
+		<label>
+		  <input type="checkbox" name="CheckboxGroup1" value="核取方塊" id="CheckboxGroup1_2">
+		  品牌設計</label>
+		<br>
+      </p>
+		<p>
+		<label for="suggestion">詳細描述:</label>
+		<textarea name="suggestion" cols="70" rows="5" id="suggestion">請詳細描述您的需求！</textarea>
+	  </p>
+	  <p class="buttom">
+	  <input type="submit" class="submit" value="送出表單">
+	  <input type="reset" class="reset" value="重設資料">
+	  </p>
+	</form>
+</div>
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.243449855293!2d120.3919902!3d22.6073824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1b82d040a5cb%3A0x6f734cb9e72b9544!2zODMx6auY6ZuE5biC5aSn5a-u5Y2A5YWn5Y6d6LevMTQ46Jmf!5e0!3m2!1szh-TW!2stw!4v1667062886875!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" scrolling="no"></iframe>
+	</div>
+<h3>Email：wenhsin920702@gmail.com</h3>
+<footer>
+	<ul class="foot">
+		<li>
+	    <a href="https://www.instagram.com/wx.0372/" target="_blank">
+		<img src="images/ig_工作區域 1.png" width="40" height="40" alt=""/>
+		</a>
+		</li>
+	</ul>
+  <p>Copyright © 2022 wenhsin chen.All rights reserved.
+</p>
+</footer>
+</body>
+</html>
