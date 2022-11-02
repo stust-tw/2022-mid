@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 986.72 533.55" style="enable-background:new 0 0 986.72 533.55;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000164511936050749334230000009324351335913719994_);}
+	.st1{fill:#FFFFFF;stroke:#3D3939;stroke-miterlimit:1;}
+	.st2{fill:#3D3939;stroke:#3E3A39;stroke-miterlimit:10;}
+	.st3{fill:#3D3939;stroke:#FFFFFF;stroke-miterlimit:1;}
+	.st4{fill:#3D3939;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#FFFFFF;stroke:#3D3939;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="134.38" y="126.64" width="717.96" height="406.91"/>
+	</defs>
+	<clipPath id="SVGID_00000093878120112092579940000003663453381180982195_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000093878120112092579940000003663453381180982195_);">
+		<polygon class="st1" points="730.49,541.28 717.57,549.77 717.57,387.15 730.49,378.66 		"/>
+		<rect x="730.49" y="378.66" class="st2" width="53.62" height="169.45"/>
+		<rect x="569.6" y="417.68" class="st2" width="53.62" height="169.45"/>
+		<polygon class="st1" points="523.49,540.31 504.63,552.71 504.63,351.39 523.49,338.99 		"/>
+		<rect x="523.49" y="338.99" class="st3" width="53.62" height="194.56"/>
+		<polygon class="st4" points="477.7,297.41 480.85,286.01 480.85,267.67 463.44,237.96 434.08,237.96 417.32,228.45 388.52,228.45 
+			388.52,237.96 388.52,244.37 388.52,558.11 480.85,558.11 480.85,382.39 477.7,370.99 		"/>
+		<g>
+			<polygon class="st5" points="372.94,248.8 382.06,242.8 382.06,233.3 388.02,229.38 388.02,557.93 372.94,567.84 			"/>
+			<path class="st4" d="M387.52,230.31v7.65v76.95v242.76l-14.08,9.25V249.07l8.67-5.7l0.45-0.3v-0.54v-8.97L387.52,230.31
+				 M388.52,228.45l-6.96,4.58v9.51l-9.12,5.99v320.24l16.08-10.57V314.9v-76.95V228.45L388.52,228.45z"/>
+		</g>
+		<rect x="452.45" y="297.41" class="st5" width="18.59" height="73.58"/>
+		<polygon class="st5" points="464.6,250.01 394.28,250.01 394.28,244.72 461.75,244.72 		"/>
+		<path class="st6" d="M428.23,411.42h-44.19V295.28h33.35c4.23,4.23,6.61,6.61,10.84,10.84V411.42z"/>
+		<polygon class="st1" points="384.05,423.06 365.17,435.46 365.17,307.68 384.05,295.28 		"/>
+	</g>
+</g>
+</svg>

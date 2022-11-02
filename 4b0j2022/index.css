@@ -1,0 +1,103 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           *{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "微軟正黑","Arial","sans-serif";
+	background-color:#A49E89;
+}
+#box{width: 980px;
+     height: auto;
+     margin: 0 auto;
+}
+#nav{
+	width: 1000px;
+	height: 50px;
+	background-color: #80745C;
+	margin: 0 auto;
+}
+#nav ul{
+	margin-left:px;
+}
+#nav ul li{
+	list-style: none;
+	float: left;
+}
+#nav ul li a{
+	color: #FFFFFF;
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 30px;
+	line-height: 50px;
+}
+#nav ul li a:hover{
+	color: #B9AE8D;
+}
+#header{background: #DDA0A1;
+	    width: 1000px;
+	    height: 400px;
+        }
+#main {
+	
+	overflow: scroll ;
+	width: 780px;
+	height: 500px;
+	background-color: #F7F3E9;
+	float: right;
+}
+#main p{
+	
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	line-height: 30px;
+}
+#side{width: 200px;
+	height: 500px;
+	background-color: #B5AD93;
+	float: right; 
+	margin-bottom: 20px;
+    }
+#side ul li{
+	list-style: none;
+	
+}
+#side ul li a{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 65px;
+	line-height: 35px;
+	
+   
+}
+#side ul li a:hover{
+	color: #8C866A;
+}
+#pic{
+	clear: both;
+	width: 1000px;
+	height: 400px;
+	background-image: url("images/5e3e70fd54b34.jpg");
+    margin: 0 auto;
+	color:#00000;
+}
+
+#foorter{
+	width: 980;
+	height: 50px;
+	background-color: #F9D7B;
+	margin: 0 auto;
+	clear: both;
+}
+#foorter p{
+           font-size: 20px;
+	       line-height: 50px;
+	     text-align: center;
+
+}
+h1{
+	padding-top:5px;
+	padding-left: 190px;
+}
