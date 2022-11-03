@@ -478,9 +478,10 @@ h3{
 }
 .data .box{
 	width: 100%;
+	padding: 20px 0;
 }
-.data .box li{
-	padding: 10px;
+.data li{
+	padding: 10px 20px;
 }
 
 
@@ -503,7 +504,7 @@ h3{
 .exper li{
 	padding: 20px;
 }
-.exper .box:nth-child(1) li{
+.exper .box li{
 	position: relative;
 }
 .exper .box:nth-child(1) li span{
@@ -518,8 +519,24 @@ h3{
 	left: 0;
 	bottom: 0;
 }
-
-
+.exper .box:nth-child(2) li:before{
+	content: "";
+	position: absolute;
+	width: 50%;
+	padding: 5px;
+	right: 0%;
+	border: 1px solid var(--greay);
+	border-radius: 50px;
+}
+.exper .box:nth-child(2) li:after{
+	content: "";
+	position: absolute;
+	width: 50%;
+	padding: 5px;
+	right: 0%;
+	background-color: var(--greay);
+	border-radius: 50px;
+}
 
 
 
