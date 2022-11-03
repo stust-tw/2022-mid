@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+  font-size: 22px;
+  text-align: center;
+  font-family:"Aa花语·满天星守望";>
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Aa花语·满天星守望"
+}
+image {
+  float: left
+}
+header {
+  float: left;
+  width: 996px;
+  height: 200px;
+}
+main {
+  float: left;
+  width: 100%;
+  height: 250px;
+}
+aside {
+  float: left;
+  width: 20%;
+  height: 800px;
+}
+nav {
+  text-align: right;
+  height: 50px;
+  width: 100%;
+}
+footer {
+  clear: left;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+nav p {
+  display: inline-block;
+  font-size: 18px;
+}
+footer p {
+  font-size: 16px;
+  text-align: center;
+}
+header p {
+  text-align: center;
+}
+img {
+  margin-top: 70px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.img2 {
+	align:right; width:500; height:680;
+}

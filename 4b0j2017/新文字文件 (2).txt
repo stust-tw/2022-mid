@@ -1,0 +1,5 @@
+<footer class="footer footer-static footer-light bg-white niPrint">
+	<p class="clearfix mb-0">
+		<san class="float-right d-sm-inline-block ">...</span>==%0
+		::after
+</p>
