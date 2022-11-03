@@ -110,17 +110,25 @@ h3{
 }
 
 .img-people{
-	  float:left;
+/*	display: block;*/
+/*	  float:left;*/
+/*
 	  position:relative;
-	  top:200px;
-	  left: 100px;
+	  top:500px;
+	  left: 0px;
+*/
+	
 }
 
 .img-txt{
+	margin-top: 200px
+/*	display: block;*/
+/*
 	float:left;
     position:relative;
 	top:180px;
-    left: 300px;
+    left: 600px;
+*/
 }
 p{
 	text-align: left;
@@ -130,4 +138,10 @@ p{
 	left:80px;
 }
 .a{transform: scale(1.2);
+}
+
+
+
+main {
+	text-align: center
 }
